@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+   RewriteEngine on
+   RewriteRule    ^$ app/webroot/    [L]
+   RewriteRule    (.*) app/webroot/$1 [L]
+</IfModule>
+RewriteCond %{HTTP_HOST} ^sms\.syspaweb\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.sms\.syspaweb\.com$
+RewriteRule ^/?$ "http\:\/\/syspaweb\.com\/sorry\.php" [R=301,L]
+

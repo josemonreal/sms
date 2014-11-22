@@ -1,0 +1,93 @@
+.txt-lft{
+	text-align:left !important;
+}
+.cen{
+	text-align: center !important;
+}
+.user.form{
+	width: 320px;
+}
+#add{
+	width: 320px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.users.form .input.text.required > label,.users.form .input.password.required > label{
+	width: 95px;
+}
+
+.users.form .submit{
+	margin: 0 auto;
+	position: relative;
+}
+
+#newContact{
+	cursor: pointer;
+
+}
+.action{
+	font-size: 16px;
+	color: #ccc6c6;
+	font-weight: bold;
+	margin: 2px 0;
+}
+.newContact{
+	display: none;
+	margin: 10px 0;
+}
+.sendMsj{
+	width: 300px;
+	display: inline-block;
+	position: relative;
+	text-align: left;
+}
+#footer{
+	display: inline-block;
+	position: relative;
+	text-align: center;
+}
+footer {
+	margin: 15px 0px;
+	display: inline-block;
+	position: relative;
+	height: 80px;
+	background-color: black;
+	color: white;
+	width: 100%;
+}
+#msgAlert{
+	display: none;
+}
+#flashMessage{
+	display: inline-block;
+	position: relative;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	padding: 12px;
+	background-image: linear-gradient(to bottom, #FCF8E3 0%, #F8EFC0 100%);
+    background-repeat: repeat-x;
+    border-color: #F5E79E;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.glyphicon{
+	cursor: pointer;
+}
+
+.delete-joma{
+
+	color: red;
+	padding: 5px;
+	font-size: 18px;
+	font-family: arial;
+}
+
+.icon-post-head{
+
+	display: inline-block;
+    margin-left: 10px;
+    vertical-align: top;
+    margin-right: 10px;
+}
